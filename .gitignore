@@ -1,0 +1,10 @@
+.DS_Store
+
+# All node_modules
+node_modules/
+
+# Only dist in root dir
+/dist/
+
+# local test files
+/dev/

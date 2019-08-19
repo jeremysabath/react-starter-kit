@@ -1,0 +1,21 @@
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "requirePragma": false,
+  "insertPragma": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "proseWrap": "preserve",
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "options": {
+        "jsxBracketSameLine": false,
+        "parser": "typescript",
+        "printWidth": 80,
+        "semi": false
+      }
+    }
+  ]
+}
