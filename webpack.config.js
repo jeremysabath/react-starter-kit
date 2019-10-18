@@ -10,6 +10,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    port: 9000,
   },
   module: {
     rules: [
